@@ -1,0 +1,151 @@
+@import url('https://fonts.cdnfonts.com/css/swallow-kick');
+
+
+
+.body {
+    background-color: aliceblue;
+}
+.header-section {
+    text-align: center;
+}
+.header-img {
+   width: 100%;
+   height: 50%;
+}
+.header-text {
+    font-family: 'Swallow Kick', sans-serif;
+    margin-top: 18%;
+    font-size: 4rem;
+    color: #009afd;
+}
+.logo-center {
+    text-align: center;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-40px); 
+    }
+}
+.img-logo-center {
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    animation: bounce 2s infinite;
+}
+#boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.supply {
+    float: left;
+    width: 31%;
+    
+}
+.contract {
+    float: left;
+    width: 31%;
+    
+}
+.lp {
+    float: right;
+    width: 31%;
+   
+}
+h1 {
+    color: #009afd;
+    font-size: 2.5rem;
+    font-family: 'Swallow Kick', sans-serif;
+}
+.lp-text {
+    border: 3.7px solid navy;
+    font-family: 'Swallow Kick', sans-serif;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
+.supply-text {
+    border: 3.7px solid navy;
+    font-family: 'Swallow Kick', sans-serif;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
+.contract-text {
+    border: 3.7px solid navy;
+    font-family: 'Swallow Kick', sans-serif;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
+.ca-text {
+    font-family: 'Swallow Kick', sans-serif;
+    color: #009afd;
+    font-size: 2rem;
+}
+.contract-address {
+    margin-top: 20px;
+    font-family: 'Swallow Kick', sans-serif;
+    text-align: center;
+    border: 3.7px solid navy;
+    border-radius: 25px;
+    padding: 10px;
+}
+.socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.socials span {
+    margin: 0 10px;
+}
+
+.icon-socials {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: #0088cc;
+    font-size: 2.7rem;
+}
+
+@keyframes melt {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5) rotate(180deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(0.1) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.hover-effect {
+    animation: melt 0.5s ease-in-out forwards;
+}
+.icon-socials:hover {
+    color: lightblue; 
+    transform: scale(1.3); 
+    transition: color 0.3s, transform 0.3s; 
+}
+.chart-section {
+    text-align: center;
+    margin-top: 3rem;
+}
+.chart-text {
+    color: #009afd;
+    font-size: 3.5rem;
+    font-family: 'Swallow Kick', sans-serif;
+}
+.footer-end {
+    margin-top: 5rem;
+    text-align: center;
+    color: #009afd;
+    font-size: 1.2rem;
+    font-family: 'Swallow Kick', sans-serif;
+}

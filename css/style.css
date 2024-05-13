@@ -74,6 +74,13 @@ h1 {
     border-radius: 25px;
     padding: 10px;
 }
+.address-text {
+    border: 3.7px solid navy;
+    font-family: 'Swallow Kick', sans-serif;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
 .contract-text {
     border: 3.7px solid navy;
     font-family: 'Swallow Kick', sans-serif;

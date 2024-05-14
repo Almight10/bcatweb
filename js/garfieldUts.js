@@ -1,5 +1,6 @@
 const twitterIcon = document.getElementById('twitter-icon');
-const telegramIcon = document.getElementById('telegram-icon');
+const instagramIcon = document.getElementById('instagram-icon');
+const firefoxIcon = document.getElementById('firefox-icon');
 
 
 function addHoverEffect(element) {
@@ -12,4 +13,5 @@ function addHoverEffect(element) {
 }
 
 addHoverEffect(twitterIcon);
-addHoverEffect(telegramIcon);
+addHoverEffect(instagramIcon);
+addHoverEffect(firefoxIcon);
